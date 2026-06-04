@@ -2,9 +2,12 @@
 
 **Website:** https://wyplayground.github.io/synbiopath/
 
+点击下方标题展开对应语言 · Click a section below to read.
+
 ---
 
-## English
+<details>
+<summary><strong>English</strong></summary>
 
 ### About
 
@@ -12,9 +15,7 @@ SynBioPath is a curated navigation site for synthetic biology research. It helps
 
 ### Live site
 
-Open the website (no install required):
-
-**https://wyplayground.github.io/synbiopath/**
+Open in your browser (no install required): **https://wyplayground.github.io/synbiopath/**
 
 ### Features
 
@@ -33,20 +34,16 @@ Open the website (no install required):
 
 ### Repository contents
 
-This repository contains the published static website:
-
-- `index.html` — Main site (self-contained single file)
-- `404.html` — Page not found
+This repository contains the published static website (`index.html`, `404.html`).
 
 ### Copyright
 
-Copyright © 2026 COFCO Nutrition and Health Research Institute (中粮营养健康研究院). All rights reserved. See [LICENSE](LICENSE).
+Copyright © 2026 COFCO Nutrition and Health Research Institute. **All rights reserved.** See [LICENSE](LICENSE). Third-party tools, PDFs, and linked documents belong to their respective owners.
 
-Third-party tools, PDFs, and linked documents belong to their respective owners.
+</details>
 
----
-
-## 中文
+<details>
+<summary><strong>中文</strong></summary>
 
 ### 简介
 
@@ -54,9 +51,7 @@ SynBioPath（合成生物学科研导航）用于集中展示生信工具、试�
 
 ### 在线访问
 
-在浏览器中打开（无需安装）：
-
-**https://wyplayground.github.io/synbiopath/**
+在浏览器中打开（无需安装）：**https://wyplayground.github.io/synbiopath/**
 
 ### 功能
 
@@ -75,13 +70,10 @@ SynBioPath（合成生物学科研导航）用于集中展示生信工具、试�
 
 ### 仓库内容
 
-本仓库为已发布的静态网站：
-
-- `index.html` — 网站主页（单文件自包含）
-- `404.html` — 页面未找到提示
+本仓库为已发布的静态网站（`index.html`、`404.html`）。
 
 ### 版权
 
-版权所有 © 2026 中粮营养健康研究院。保留一切权利。详见 [LICENSE](LICENSE)。
+版权所有 © 2026 中粮营养健康研究院。**保留一切权利。** 详见 [LICENSE](LICENSE)。第三方工具、PDF 及外链文档版权归原作者或提供方所有。
 
-第三方工具、PDF 及外链文档版权归原作者或提供方所有。
+</details>
