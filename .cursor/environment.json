@@ -1,0 +1,17 @@
+{
+  "name": "SynBioPath",
+  "install": "echo 'SynBioPath is a self-contained static site; no dependencies to install.'",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "python3 -m http.server 8080 --bind 0.0.0.0",
+      "description": "Serves the static SynBioPath site (index.html / 404.html) at http://localhost:8080"
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 8080
+    }
+  ]
+}
