@@ -1,33 +1,26 @@
-# Website Design
+# websitedesign
 
-A GitHub Pages collection for published website designs.
+GitHub Pages repo for static website designs. Each site lives in its own subfolder; there is no root landing page.
 
-**Hub:** https://wyplayground.github.io/websitedesign/
-
-| Site | Path | Live URL |
-|------|------|----------|
+| Site | Folder | Live URL |
+|------|--------|----------|
 | SynBioPath | [`synbiopath/`](synbiopath/) | https://wyplayground.github.io/websitedesign/synbiopath/ |
 
-More sites will be added later as additional subfolders.
-
-The old repository URL `https://github.com/Wyplayground/synbiopath` redirects here. The old Pages URL `https://wyplayground.github.io/synbiopath/` is retired; use the SynBioPath link above.
+More sites can be added later as sibling folders.
 
 ---
 
 ## English
 
-This repository used to be a single-site repo for SynBioPath. It is now a folder-per-site collection:
-
-- Repository root (`index.html`) is a small directory of sites.
-- Each published website lives in its own subfolder.
+This repo hosts one website per subfolder. Open the folder URL directly; the repo root is not a public site.
 
 ### Add another site later
 
-1. Create a new folder at the repo root (for example `project-name/`).
+1. Create a folder at the repo root (for example `project-name/`).
 2. Put that site’s `index.html` (and assets) inside the folder.
-3. Add a card on the root `index.html` and a row in the table above.
+3. Add a row to the table above.
 
-GitHub Pages is served from the `main` branch root, so a new folder is available at:
+The new site will be available at:
 
 `https://wyplayground.github.io/websitedesign/<folder>/`
 
@@ -35,17 +28,17 @@ GitHub Pages is served from the `main` branch root, so a new folder is available
 
 ## 中文说明
 
-本仓库已从单独的 SynBioPath 站点，改成「一个子文件夹一个网站」的网页设计合集：
+本仓库按「一个子文件夹一个网站」组织，没有根目录汇总页。直接访问各子文件夹对应的 Pages 地址即可。
 
-- 仓库根目录是站点目录页
-- SynBioPath 在 [`synbiopath/`](synbiopath/)
-- 以后新的网页设计直接加新文件夹即可
+| 站点 | 文件夹 | 线上地址 |
+|------|--------|----------|
+| SynBioPath | [`synbiopath/`](synbiopath/) | https://wyplayground.github.io/websitedesign/synbiopath/ |
 
 ### 以后加新站点
 
 1. 在仓库根目录新建文件夹
 2. 把该站点的 `index.html` 放进去
-3. 在根目录 `index.html` 和上表里补一条入口
+3. 在上表补一条记录
 
 ---
 
