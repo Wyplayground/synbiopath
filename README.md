@@ -17,13 +17,13 @@ websitedesign/
 ├── synbiopath/
 │   ├── index.html
 │   └── ...
-└── <next-site>/
+└── SITE_NAME/
     └── index.html
 ```
 
 To add another site, create a new folder with its static files. It will be served at:
 
-`https://wyplayground.github.io/websitedesign/<folder>/`
+`https://wyplayground.github.io/websitedesign/SITE_NAME/`
 
 ## License
 
