@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Website Design</title>
-  <meta name="description" content="A collection of static website designs. SynBioPath is the first published site." />
+  <meta name="description" content="A collection of published website designs. SynBioPath is here; more sites will be added." />
   <style>
     :root {
       --brand: #206b56;
@@ -23,89 +23,61 @@
       color: var(--ink);
       background: var(--wash);
     }
-    main {
+    .wrap {
       max-width: 880px;
       margin: 0 auto;
-      padding: 56px 24px 80px;
+      padding: 56px 24px 72px;
     }
     .kicker {
       color: var(--brand);
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 13px;
       margin: 0 0 10px;
     }
-    h1 {
-      font-size: 36px;
-      line-height: 1.15;
-      margin: 0 0 12px;
-    }
-    .lead {
-      color: var(--muted);
-      font-size: 17px;
-      line-height: 1.65;
-      margin: 0 0 36px;
-      max-width: 62ch;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 18px;
-    }
-    a.card, .card {
+    h1 { font-size: 36px; margin: 0 0 12px; }
+    .lead { color: var(--muted); font-size: 17px; line-height: 1.6; margin: 0 0 36px; }
+    .grid { display: grid; gap: 16px; }
+    a.card {
       display: block;
       background: var(--paper);
       border: 1px solid var(--line);
       border-radius: 16px;
-      padding: 22px;
+      padding: 22px 24px;
       text-decoration: none;
       color: inherit;
-      box-shadow: 0 14px 40px rgba(23, 33, 29, 0.06);
+      box-shadow: 0 10px 28px rgba(23, 33, 29, 0.06);
     }
-    a.card:hover {
-      border-color: var(--brand);
-    }
-    .card.soon {
-      border-style: dashed;
-      box-shadow: none;
+    a.card:hover { border-color: var(--brand); }
+    .card h2 { margin: 0 0 8px; font-size: 22px; color: var(--brand-dark); }
+    .card p { margin: 0; color: var(--muted); line-height: 1.55; }
+    .soon {
+      border: 1px dashed var(--line);
+      border-radius: 16px;
+      padding: 22px 24px;
       color: var(--muted);
     }
-    .card h2 {
-      margin: 0 0 8px;
-      font-size: 20px;
-    }
-    .card p {
-      margin: 0;
-      line-height: 1.6;
-      color: var(--muted);
-    }
-    .go {
-      display: inline-block;
-      margin-top: 16px;
-      color: var(--brand-dark);
-      font-weight: 700;
-    }
+    .soon h2 { margin: 0 0 8px; font-size: 18px; color: #4b5a55; }
+    .soon p { margin: 0; line-height: 1.55; }
   </style>
 </head>
 <body>
-  <main>
-    <p class="kicker">Wyplayground / websitedesign</p>
-    <h1>Website designs</h1>
+  <main class="wrap">
+    <p class="kicker">Wyplayground</p>
+    <h1>Website Design</h1>
     <p class="lead">
-      This repository collects static websites. SynBioPath is live now;
-      more designs will be added here as their own folders.
-      本仓库用于存放静态网页设计。SynBioPath 已上线，后续站点会以子文件夹形式加入。
+      这个仓库用来放网页设计。SynBioPath 已迁到子目录；后续站点会继续加在这里。<br />
+      This repo hosts published website designs. SynBioPath lives in a subfolder; more sites will follow.
     </p>
     <div class="grid">
       <a class="card" href="synbiopath/">
         <h2>SynBioPath</h2>
-        <p>Synthetic biology research navigator / 合成生物学科研导航.</p>
-        <span class="go">Open site →</span>
+        <p>合成生物学科研导航。工具目录、操作说明与仪器参考。<br />Synthetic biology research navigator: tools, SOPs, and instruments.</p>
       </a>
-      <div class="card soon">
-        <h2>More sites</h2>
-        <p>Placeholder for the next webpage design. 后续网页设计将放在这里。</p>
+      <div class="soon">
+        <h2>More sites / 后续站点</h2>
+        <p>还没有想好下一批页面。确定之后会作为新的子文件夹加到这个仓库。</p>
       </div>
     </div>
   </main>
