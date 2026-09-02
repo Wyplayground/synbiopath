@@ -1,8 +1,8 @@
 # websitedesign
 
-Static websites published with [GitHub Pages](https://pages.github.com/).
+Website projects published from this repository. Some are static; others may include dynamic or server-backed sites later.
 
-Each site lives in its own folder under this repository. There is no page at the repo root.
+Each project lives in its own folder. There is no page at the repo root.
 
 ## Sites
 
@@ -15,13 +15,12 @@ Each site lives in its own folder under this repository. There is no page at the
 ```text
 websitedesign/
 ├── synbiopath/
-│   ├── index.html
 │   └── ...
 └── SITE_NAME/
-    └── index.html
+    └── ...
 ```
 
-To add another site, create a new folder with its static files. It will be served at:
+To add another site, create a new folder with that project’s files. If it is served via GitHub Pages, it will be available at:
 
 `https://wyplayground.github.io/websitedesign/SITE_NAME/`
 
