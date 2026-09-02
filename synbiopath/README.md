@@ -4,7 +4,7 @@
 
 **Website:** https://wyplayground.github.io/websitedesign/synbiopath/
 
-This folder is the published static site (`index.html`, `404.html`) inside the [`websitedesign`](https://github.com/Wyplayground/websitedesign) collection.
+This site is one folder in the [websitedesign](https://github.com/Wyplayground/websitedesign) collection.
 
 [LICENSE](../LICENSE)
 
@@ -38,6 +38,10 @@ Open in your browser (no install required):
 4. On **Operation manuals**, pick a document from the sidebar; read the summary and use **完整PDF链接** to open the full PDF.
 5. Use the star icon on a tool to add it to **My favorites** (stored in this browser only).
 
+### Repository contents
+
+This folder contains the published website (`index.html`).
+
 ### Copyright
 
 Copyright © 2026 COFCO Nutrition and Health Research Institute (中粮营养健康研究院). **All rights reserved.** See [LICENSE](../LICENSE).
@@ -70,6 +74,10 @@ SynBioPath（合成生物学科研导航）用于集中展示生信工具、试�
 3. 在 **工具** 页按分类筛选或搜索名称；点击卡片查看详情与外链。
 4. 在 **操作说明** 左侧选择文档；阅读摘要后点击 **完整PDF链接** 查看完整 PDF。
 5. 点击工具卡片上的星标可加入 **我的收藏**（仅保存在当前浏览器）。
+
+### 仓库内容
+
+本文件夹为已发布的网站（`index.html`）。
 
 ### 版权
 
